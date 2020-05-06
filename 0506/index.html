@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>盒子模型</title>
+  <style>
+    #divContainer {
+      /* background-color: black;
+      color: #ffffff; */
+      padding-top: 100px;
+      border: 10px outset gray;
+      margin-top: 10px;
+      margin-left: 100px;
+    }
+    #divContainer div:first-child {
+      border: inherit;
+    }
+    #divSec {
+      background-color: red;
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <div id="divContainer" >这是一个 div
+    <div>小几把</div>
+  </div>
+  <div id="divSec">这是第二个 div</div>
+</body>
+</html>
